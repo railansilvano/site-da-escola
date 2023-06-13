@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolinha do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .cabecalho {
+            background-color: #263238;
+            padding: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cabecalho-titulo {
+            font-size: 32px;
+            color: #fff;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        .cabecalho-navegacao {
+            display: flex;
+            gap: 24px;
+        }
+
+        .cabecalho-lista {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho-lista-item {
+            display: inline-block;
+        }
+
+        .cabecalho-lista-link {
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .escola {
+            padding: 48px;
+            display: flex;
+            align-items: center;
+        }
+
+        .escola-div-conteudo {
+            flex: 1;
+            margin-right: 48px;
+        }
+
+        .escola-titulo {
+            font-size: 28px;
+            color: #000;
+            margin-bottom: 24px;
+        }
+
+        .escola-texto {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #000000;
+            margin-bottom: 16px;
+        }
+
+        .escola-imagem {
+            width: 400px;
+            border-radius: 8px;
+        }
+
+        .estudante {
+            padding: 48px;
+        }
+
+        .estudante-titulo {
+            font-size: 28px;
+            color: #263238;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .estudante-todos {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 24px;
+        }
+
+        .estudante-div {
+            text-align: center;
+        }
+
+        .estudante-imagem {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 16px;
+            object-fit: cover;
+            object-position: center;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .estudante-imagem:hover {
+            transform: scale(1.1);
+        }
+
+        .estudante-nome {
+            font-size: 20px;
+            color: #263238;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        .rodape {
+            background-color: #263238;
+            color: #fff;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .rodape p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">CERF</h1>
+        <nav class="cabecalho-navegacao">
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item"><a class="cabecalho-lista-link" href="#escola">Sobre a Escola</a></li>
+                <li class="cabecalho-lista-item"><a class="cabecalho-lista-link" href="#estudante">Estudantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="escola" class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo">Sobre a Escola</h2>
+            <p class="escola-texto">O prédio do Colégio Regente Feijó foi inaugurado em 1924, na cidade de Ponta Grossa, no estado do Paraná, Brasil. Na época, ele foi construído para funcionar como a Escola Normal de Ponta Grossa, que era responsável pela formação de professores para o ensino fundamental.</p>
+            <p class="escola-texto">Em 1939, o prédio passou a abrigar o Ginásio Regente Feijó, que oferecia educação de nível médio. Desde então, o Colégio Regente Feijó tornou-se uma instituição renomada na cidade, conhecida por sua excelência acadêmica e por formar muitos profissionais de destaque em diferentes áreas.</p>
+            <p class="escola-texto">O edifício do Colégio Regente Feijó é um marco na paisagem urbana de Ponta Grossa, devido à sua beleza arquitetônica e estilo eclético. A construção apresenta elementos do estilo clássico e da art-nouveau, tornando-a única e muito atraente para os visitantes. O prédio é considerado um patrimônio histórico e cultural da cidade, e é um local muito importante para a comunidade local.</p>
+        </div>
+        <img class="escola-imagem" src="http://photos.wikimapia.org/p/00/03/93/73/97_big.jpg" alt="imagem que representa uma professora em sala de aula">
+    </section>
+
+    <section id="estudante" class="estudante">
+        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+        <div class="estudante-todos">
+            <div class="estudante-div">
+                <a href="estudanterailan.html">
+                    <img class="estudante-imagem" src="/home/escola/Downloads/fa279fcc-bb23-4d5d-a697-0f4370ee0912.jfif" alt="foto do marcelo">
+                    <h3 class="estudante-nome">Railan</h3>
+                </a>
+            </div>
+            <div class="estudante-div">
+                <a href="estudantejose.html">
+                    <img class="estudante-imagem" src="/home/escola/Downloads/468c667d-4bf0-4f7f-bb76-d7883f630080.jfif" alt="foto da gabi">
+                    <h3 class="estudante-nome">Jose</h3>
+                </a>
+            </div>
+            <div class="estudante-div">
+                <a href="estudantelana.html">
+                    <img class="estudante-imagem" src="/home/escola/Downloads/c5d110e7-b3f7-467a-9e9f-116d36534782.jfif" alt="foto da lizandra">
+                    <h3 class="estudante-nome">Lana</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>&copy; 2023 Escolinha do. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
